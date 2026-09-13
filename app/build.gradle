@@ -17,6 +17,15 @@ android {
         }
     }
 
+    signingConfigs {
+        release {
+            storeFile file("upload-keystore.jks")
+            storePassword findProperty("PASSWORD")
+            keyAlias 'upload'
+            keyPassword findProperty("PASSWORD")
+        }
+    }
+
     bundle {
         language {
             enableSplit false
