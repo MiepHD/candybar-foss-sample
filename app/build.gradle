@@ -44,6 +44,10 @@ android {
 
 }
 
+base {
+    archivesName = "${parent.name}-v${android.defaultConfig.versionCode}"
+}
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
