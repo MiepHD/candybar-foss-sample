@@ -7,8 +7,8 @@ android {
         applicationId 'com.candybar.sample'
         minSdkVersion rootProject.ext.MinSdk
         targetSdkVersion rootProject.ext.TargetSdk
-        versionCode 1
-        versionName '1.0'
+        versionCode 3230
+        versionName '3.23.0'
         multiDexEnabled true
 
         // Naming app bundles
